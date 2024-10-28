@@ -21,6 +21,6 @@ dependencies:
   - pip
   - pip:
     - -r requirements.txt
-  - python
+  - python<=3.12
   - python-lsp-server
   - tqdm
