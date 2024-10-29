@@ -4,7 +4,7 @@
 set -e
 
 # clone the llama.cpp repository
-PROJECT_DIR="$PWD"
+PROJECT_DIR="$PWD/local-deployment-llama-cpp"
 SRC_DIR="$PROJECT_DIR"/src/llama-cpp
 if [ ! -d "$SRC_DIR" ]; then git clone https://github.com/ggerganov/llama.cpp.git "$SRC_DIR"; fi
 
